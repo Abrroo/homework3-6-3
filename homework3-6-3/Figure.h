@@ -1,6 +1,6 @@
 #pragma once
 #include <string>
-#include "Triangle.h"
+
 
 class Figure
 {

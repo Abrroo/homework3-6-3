@@ -1,9 +1,8 @@
 #include "Triangle.h"
-#include "Figure.h"
 
 
     Triangle::Triangle() {}
-    Triangle::Triangle(int a, int b, int c, int A, int B, int C) : Figure(a, b, c, A, B, C)
+    Triangle::Triangle(int a, int b, int c, int A, int B, int C)
     {
         this->a = a;
         this->b = b;

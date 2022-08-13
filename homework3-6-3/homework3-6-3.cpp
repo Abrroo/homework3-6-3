@@ -2,7 +2,6 @@
 #include <cstring>
 #include <string>
 #include "Figure.h"
-#include "Triangle.h"
 
 /*
 std::string make_1string(int* arr)
