@@ -2,6 +2,15 @@
 #include <cstring>
 #include <string>
 #include "Figure.h"
+#include "Triangle.h"
+#include "Quadrangle.h"
+#include "Right_triangle.h"
+#include "Iso_triangle.h"
+#include "Equil_triangle.h"
+#include "Rectangle.h"
+#include "Square.h"
+#include "Parallelogram.h"
+#include "Rhombus.h"
 
 /*
 std::string make_1string(int* arr)
@@ -23,8 +32,8 @@ std::string make_2string(int* arr)
     }
     return result;
 }
-*/
-/*
+
+
 class Figure
 {
 private:
@@ -74,8 +83,8 @@ public:
         std::cout << result2 << std::endl << std::endl;
     }
 };
-*/
-/*
+
+
 class Triangle : public Figure
 {
 private:
@@ -104,7 +113,6 @@ public:
     }
 
 };
-*/
 
 class Right_triangle : public Triangle
 {
@@ -170,7 +178,7 @@ public:
     }
     std::string get_name_figure()
     {
-        return "Равносторонний треугольник::";
+        return "Равносторонний треугольник:";
     }
 
 };
@@ -303,7 +311,7 @@ public:
         return "Ромб:";
     }
 };
-
+*/
 
 
 void get_info(Figure* figure)
@@ -332,7 +340,7 @@ int main()
     Rhombus rhombus(30, 30, 30, 30, 30, 40, 30, 40);   // |
 
 
-    get_info(&figure);
+    //get_info(&figure);
     get_info(&triangle);
     get_info(&right_triangle);
     get_info(&iso_triangle);

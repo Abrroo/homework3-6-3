@@ -25,7 +25,7 @@
     }
     std::string Figure::get_name_figure()
     {
-        return "";
+        return "Фигура";
     }
     void Figure::print()
     {

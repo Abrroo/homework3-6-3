@@ -2,7 +2,7 @@
 
 
     Triangle::Triangle() {}
-    Triangle::Triangle(int a, int b, int c, int A, int B, int C)
+    Triangle::Triangle(int a, int b, int c, int A, int B, int C) : Figure(a, b, c, A, B, C)
     {
         this->a = a;
         this->b = b;
